@@ -11,18 +11,18 @@ public class Lesson {
 // Вывод результата
         System.out.println(result1.repeat(3));
 
+//-------------------------------------------------------------------------------
 
-
-// Объявляем переменные (рост м или см ?)
-        int height = 183;
+// Объявляем переменные
+        double height = 1.83;
         int weight = 83;
-// Вычисляем результат
-        double result2 = (double) weight / (height * height);
+// Вычисляем результат с переводом в целое число
+        double result2 = (int)(weight / (height * height));
 
 // Вывод результата
         System.out.println(result2);
 
-
+//--------------------------------------------------------------------------------
 
 // Создаем массив
         char[] array = new char[5];
