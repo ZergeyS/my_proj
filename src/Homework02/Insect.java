@@ -1,14 +1,14 @@
 package Homework02;
 
-public class Animal {
-    private String animalName;
+public class Insect {
+    private String insectName;
     private int legsAmount;
-    public Animal(String name, int legsAmount) {
-        this.animalName = name;
+    public Insect(String name, int legsAmount) {
+        this.insectName = name;
         this.legsAmount = legsAmount;
-    }
-    public String getAnimalInfo() {
-        return animalName + " has " + legsAmount + " legs";
+}
+    public String getInsectInfo() {
+        return insectName + " has " + legsAmount + " legs";
     }
 
     public void legsMultiplier(int legsMultiplier) {

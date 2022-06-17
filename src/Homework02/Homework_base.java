@@ -49,14 +49,14 @@ public class Homework_base {
             System.out.println("У меня ничего нет");
         }
 // Задание №4
-        Animal firstAnimal = new Animal("Horse", 4);
-        Animal secondAnimal = new Animal("Spider", 8);
-        System.out.println(firstAnimal.getAnimalInfo());
-        System.out.println(secondAnimal.getAnimalInfo());
+        Animal horse = new Animal("Лошадь", 4);
+        Insect spider = new Insect("Паук", 8);
+        System.out.println(horse.getAnimalInfo());
+        System.out.println(spider.getInsectInfo());
         System.out.println("удвоим количество ног");
-        firstAnimal.legsMultiplier(2);
-        secondAnimal.legsMultiplier(2);
-        System.out.println("A mutant " + firstAnimal.getAnimalInfo());
-        System.out.println("A mutant " + secondAnimal.getAnimalInfo());
+        horse.legsMultiplier(2);
+        spider.legsMultiplier(2);
+        System.out.println("A mutant " + horse.getAnimalInfo());
+        System.out.println("A mutant " + spider.getInsectInfo());
     }
 }
