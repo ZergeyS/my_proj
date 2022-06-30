@@ -1,4 +1,4 @@
-package Homework02;
+package Homework02.Base;
 
 public class Animal {
     private String animalName;

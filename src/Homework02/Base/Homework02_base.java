@@ -1,6 +1,6 @@
-package Homework02;
+package Homework02.Base;
 
-public class Homework_base {
+public class Homework02_base {
     public static void main(String[] args) {
 // Задание №1 вариант 1
         for (int i = 1; i < 101; i++) {
